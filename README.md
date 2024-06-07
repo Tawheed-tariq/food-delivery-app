@@ -57,26 +57,31 @@ Build Tool: Create React App
 
 ```
 food-delivery-app/
-├── public/                 # Static files
+├── public/                 
 ├── src/
-│   ├── components/         # Reusable UI components
-│   │   ├── Cart.js        # Shopping cart component
-│   │   ├── FoodItem.js    # Individual food item display
-│   │   ├── Navbar.js      # App navigation bar
-│   │   └── ReviewCard.js  # User review display
-│   ├── pages/             # App pages
-│   │   ├── About.js       # About us page
-│   │   ├── CuisinePage.js # Cuisine-specific page
-│   │   ├── Home.js        # Landing page
-│   │   └── Reviews.js     # User reviews page
-│   ├── data/              # Mock data
-│   │   └── foodData.js    # Sample food items data
-│   ├── App.js             # Main app component
-│   ├── index.js           # Entry point
-│   └── index.css          # Global styles
-├── package.json           # Project dependencies
-├── tailwind.config.js     # Tailwind CSS configuration
-└── postcss.config.js      # PostCSS configuration
+│   ├── components/         
+│   │   ├── Cart.js        
+│   │   ├── FoodItem.js    
+│   │   ├── Navbar.js
+│   │   ├── FoodCategory.js     
+│   │   └── ReviewCard.js  
+│   ├── pages/             
+│   │   ├── About.js       
+│   │   ├── CuisinePage.js 
+│   │   ├── Home.js        
+│   │   └── Reviews.js    
+│   ├── data/
+│   │   ├── constants.js          
+│   │   └── foodData.js    
+│   ├── App.js             
+│   ├── index.js           
+│   └── index.css
+├── .gitignore         
+├── package.json
+├── package-lock.json
+├── README.md        
+├── tailwind.config.js     
+└── postcss.config.js      
 ```
 
 ## 🤝 Contributing
