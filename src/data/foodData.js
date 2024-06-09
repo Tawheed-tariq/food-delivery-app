@@ -84,7 +84,7 @@ export const foodItems = [
     description: "Aromatic lamb curry",
     price: 500,
     category: "Main Course",
-    cuisine: "kashmiri",
+    cuisine: "indian",
   },
   {
     id: 11,
@@ -92,7 +92,7 @@ export const foodItems = [
     description: "Spiced potatoes in a yogurt-based gravy",
     price: 250,
     category: "Main Course",
-    cuisine: "kashmiri",
+    cuisine: "indian",
   },
   {
     id: 12,
